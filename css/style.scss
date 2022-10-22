@@ -1,0 +1,120 @@
+
+.slides{
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    
+    >ul.indicators{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        width: 580px;
+        // outline: 1px solid red;
+        margin: 0 auto;
+
+
+        >li{
+            width: 300px;
+            background-image: url(./../images/btn.title.jpg);
+
+            &:nth-child(1){background-position: -4px 0;}
+            &:nth-child(2){background-position:-110px 0;}
+            &:nth-child(3){background-position:-205px 0;}
+            &:nth-child(4){background-position:-305px 0;}
+            &:nth-child(5){background-position:-400px 0;}
+            &:nth-child(6){background-position:-505px 0;}
+
+            &:hover,
+            &.on{
+                background-position-y: 110px;
+            }
+
+            >a{
+                display: block;
+                height: 110px;
+                text-indent: -9999px;
+            }
+        }//end of li
+    }//end of .indicators
+
+    div{
+        // overflow: hidden;
+        position: relative;
+        width: 478px;
+        height: 438px;
+        margin: 0 auto;
+        // outline: 1px solid red;
+
+        >ol.slides-container{
+            display: flex;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2868px;
+            width: calc(478px * 6);
+            outline: 5px solid blue;
+
+            >li{
+                outline: 1px solid red;
+                width: 478px;
+
+                // 무한슬라이드의 경우 반드시 태그에 클래스를 붙여서 IR처리
+                &.banner_1{background-image: url(./../images/sajick\ baseball\ stadium\ cheering\ event.jpg);}
+                &.banner_2{background-image: url(./../images/samsung-lions\ baseball\ studium\ eventball.png);}
+                &.banner_3{background-image: url(./../images/kanglueng-chodang-sundubu.png);}
+                &.banner_4{background-image: url(./../images/kanglueng-kungpodae.png);}
+                &.banner_5{background-image: url(./../images/hungary\ food.png);}
+                &.banner_6{background-image: url(./../images/hungary\ budafast-night\ view.png);}
+
+                >a{
+                    display: block;
+                    height: 438px;
+                    text-indent: -9999px;
+                }
+            }//end of li
+        }//end of .slides-container
+    }//end of div
+
+    >a{
+        display: block;
+        position: absolute;
+        top: 300px;
+        width: 44px;
+        height: 44px;
+        text-indent: -9999px;
+        background-image: url(./../images/img_talk_button.png);
+
+        &.prev{left:0;background-position:0 0;}
+        &.prev:hover{background-position:-70px 0;}
+
+        &.next{right:0;background-position:0 -70px;}
+        &.next:hover{background-position:-70px -70px;}
+    }//이전다음버튼
+
+    
+}//end of .slides
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

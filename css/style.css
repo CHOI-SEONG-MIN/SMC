@@ -1,0 +1,109 @@
+.slides {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+}
+.slides > ul.indicators {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 580px;
+  margin: 0 auto;
+}
+.slides > ul.indicators > li {
+  width: 300px;
+  background-image: url(./../images/btn.title.jpg);
+}
+.slides > ul.indicators > li:nth-child(1) {
+  background-position: -4px 0;
+}
+.slides > ul.indicators > li:nth-child(2) {
+  background-position: -110px 0;
+}
+.slides > ul.indicators > li:nth-child(3) {
+  background-position: -205px 0;
+}
+.slides > ul.indicators > li:nth-child(4) {
+  background-position: -305px 0;
+}
+.slides > ul.indicators > li:nth-child(5) {
+  background-position: -400px 0;
+}
+.slides > ul.indicators > li:nth-child(6) {
+  background-position: -505px 0;
+}
+.slides > ul.indicators > li:hover, .slides > ul.indicators > li.on {
+  background-position-y: 110px;
+}
+.slides > ul.indicators > li > a {
+  display: block;
+  height: 110px;
+  text-indent: -9999px;
+}
+.slides div {
+  position: relative;
+  width: 478px;
+  height: 438px;
+  margin: 0 auto;
+}
+.slides div > ol.slides-container {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2868px;
+  width: 2868px;
+  outline: 5px solid blue;
+}
+.slides div > ol.slides-container > li {
+  outline: 1px solid red;
+  width: 478px;
+}
+.slides div > ol.slides-container > li.banner_1 {
+  background-image: url(./../images/sajick\ baseball\ stadium\ cheering\ event.jpg);
+}
+.slides div > ol.slides-container > li.banner_2 {
+  background-image: url(./../images/samsung-lions\ baseball\ studium\ eventball.png);
+}
+.slides div > ol.slides-container > li.banner_3 {
+  background-image: url(./../images/kanglueng-chodang-sundubu.png);
+}
+.slides div > ol.slides-container > li.banner_4 {
+  background-image: url(./../images/kanglueng-kungpodae.png);
+}
+.slides div > ol.slides-container > li.banner_5 {
+  background-image: url(./../images/hungary\ food.png);
+}
+.slides div > ol.slides-container > li.banner_6 {
+  background-image: url(./../images/hungary\ budafast-night\ view.png);
+}
+.slides div > ol.slides-container > li > a {
+  display: block;
+  height: 438px;
+  text-indent: -9999px;
+}
+.slides > a {
+  display: block;
+  position: absolute;
+  top: 300px;
+  width: 44px;
+  height: 44px;
+  text-indent: -9999px;
+  background-image: url(./../images/img_talk_button.png);
+}
+.slides > a.prev {
+  left: 0;
+  background-position: 0 0;
+}
+.slides > a.prev:hover {
+  background-position: -70px 0;
+}
+.slides > a.next {
+  right: 0;
+  background-position: 0 -70px;
+}
+.slides > a.next:hover {
+  background-position: -70px -70px;
+}/*# sourceMappingURL=style.css.map */
